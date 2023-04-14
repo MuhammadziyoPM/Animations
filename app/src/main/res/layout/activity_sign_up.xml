@@ -12,44 +12,54 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="580dp"
         android:gravity="center_vertical"
         android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instagram"
+            android:textSize="45sp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/billabong"
 
+            />
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="52dp"
             android:paddingStart="10dp"
             android:background="@drawable/view_rounded_corner"
             android:hint="@string/fullname"
-            android:textColorHint="#B8B6B6"
+            android:textColorHint="#ffffff"
             android:textSize="16dp" />
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="52dp"
             android:paddingStart="10dp"
             android:background="@drawable/view_rounded_corner"
             android:hint="Email"
             android:layout_marginTop="10dp"
-            android:textColorHint="#B8B6B6"
-            android:textSize="16sp" />  <EditText
+            android:textColorHint="#ffffff"
+            android:textSize="16sp" />
+        <EditText
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="52dp"
             android:paddingStart="10dp"
             android:background="@drawable/view_rounded_corner"
             android:hint="@string/password"
             android:layout_marginTop="10dp"
-            android:textColorHint="#B8B6B6"
+            android:textColorHint="#ffffff"
             android:textSize="16sp" />
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="52dp"
             android:paddingStart="10dp"
             android:background="@drawable/view_rounded_corner"
             android:hint="Confirm Password"
             android:layout_marginTop="10dp"
-            android:textColorHint="#B8B6B6"
+            android:textColorHint="#ffffff"
             android:textSize="16sp" />
 
         <Button
@@ -64,32 +74,33 @@
             android:textColorHint="#ffffff"
             android:textSize="16sp" />
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
-            android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Already have an account?"
-                android:textColor="#B8B6B6"
-                android:textSize="16sp"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Sign in"
-                android:textColor="@color/white"
-                android:textStyle="bold"
-                android:textSize="16sp"
-                android:id="@+id/sign_in2"
-                android:layout_marginStart="6dp"
-                />
         </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:id="@+id/sign_in2"
+            android:layout_marginStart="6dp"
+            />
     </LinearLayout>
 
 

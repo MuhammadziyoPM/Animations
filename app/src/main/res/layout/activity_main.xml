@@ -15,9 +15,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Instagram"
-        android:fontFamily="billabong.ttf"
+        android:textSize="45sp"
+        android:layout_gravity="center"
         android:textColor="#ffffff"
-        android:textSize="30dp"
+        android:fontFamily="@font/billabong"
+
         />
 </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
